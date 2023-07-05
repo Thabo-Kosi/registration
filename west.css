@@ -1,0 +1,133 @@
+
+body{
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right, rgb(9, 12, 175),rgb(136, 243, 255));
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 140px;
+  margin-bottom: 140px;
+  margin-left: 70px;
+  margin-right: 70px;
+
+}
+.head{
+  max-width: 600px;
+  width: 100%;
+  padding: 30px 320px;
+  padding-bottom: 470px;
+  height: 50px;
+  width: 400px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  font-family: arial;
+  margin-left: 70px;
+  margin-right:70px ;
+  background: linear-gradient(to left, rgb(9, 12, 175),rgb(136, 243, 255));
+  }
+
+.line{
+  
+  margin-left:107px;
+  margin-bottom: 25px;
+  color: white; 
+}
+div{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+
+}
+.name, .username, .email2, .number, .pass, .confirm {
+  padding: 15px;
+  width: 300px;
+  border-radius: 11px;
+  border-style: none;
+  }
+  
+.all1{
+  display : inline-block;
+  margin-left: 107px;
+  }
+  .all2{
+  display: inline-block;
+  margin-left: 34px;
+
+  }
+.all3{
+  
+  display: inline-block;
+  margin-left: 107px;
+}
+.all4{
+display: inline-block;
+margin-left: 34px;
+}
+.number1{
+  padding-bottom: 0;
+  padding-top: 15px;
+}
+
+.all5{
+  display: inline-block;
+  margin-left: 107px;
+  
+}
+.Password{
+  padding-bottom: 0;
+  padding-top: 15px;
+}
+.all6{
+  display: inline-block;
+  margin-left: 34px;
+
+}
+.Gender{
+  margin-left: 107px;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+.all7{
+  margin-left:107px ; 
+  display: inline-block;
+  
+}
+.all8{
+  margin-left:107px ; 
+  display: inline-block;
+}
+.check{
+  border-radius: 25%;
+}
+.button{
+  padding: 15px;
+  width: 300px;
+  margin-top: 0px;
+  margin-left:300px;
+  margin-right: 300px;
+  font-size:20px;
+  border-radius: 15px;
+  border-style: none;
+  color: white;
+  background: linear-gradient(to right, rgb(136, 243, 255), rgb(9, 12, 175));
+}
+.button:hover{
+  cursor: pointer;
+box-shadow:0 0 5px rgb(9, 12, 175), 0 0 50px rgb(9, 12, 175);
+
+}
+.button:active{
+  font-weight: bold;
+  border-top-left-radius: 50px rgba(0, 0, 30px, 0.4px);
+  zoom:101%;
+}
+
+
+
+
+
+
+
+  

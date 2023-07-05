@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="west.css" media="all" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=4.0" />
+  <div class="all">
+    <title>Registration</title>
+  </head>
+  <body>
+<form action="thabo.html">
+    <span class="head"><n>Registration</n></span>
+    <div class="line">
+      _____________________________________________________________________
+    </div>
+    <div class="all1">
+    <div class="full">Full Name</div>
+    <div>
+      <input
+        class="name"
+        type="text"
+        name="name"
+        id="#name"
+        placeholder="Enter your name"
+        required
+        autofocus
+      />
+    </div>
+</div>
+<div class="all2">
+    <div class="user">Username</div>
+    <div>
+      <input
+        class="username"
+        type="text"
+        name="username"
+        id="username"
+        placeholder="Enter your username"
+        required
+        autofocus
+      />
+    </div>
+</div>
+<div class="all3">
+    <div class="email1">Email</div>
+    <input
+      class="email2"
+      type="email"
+      name="email"
+      id="email"
+      placeholder="Email"
+      required
+      autofocus
+    />
+</div>
+<div class="all4">    
+    <div class="number1"> Phone Number</div>
+    <input
+      class="number"
+      type="tel"
+      name="tel number"
+      id="tel"
+      placeholder="Phone number"
+      maxlength="10"
+      required
+      autofocus
+    />
+</div>
+<div class="all5">
+    <div class="Password">Password</div>
+    <input
+      class="pass"
+      type="password"
+      name="password"
+      id="psw"
+      pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{0-9}"
+      placeholder="Enter password"
+      required
+      autofocus
+      minlength="6"
+
+    />
+</div>
+<div class="all6">
+    <div class="pass2">confirm</div>
+    <input
+      class="confirm"
+      type="password"
+      name="password"
+      id="psw"
+      pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{0-9}"
+      placeholder= "confirm password"
+      required
+      autofocus
+    />
+    </div>
+    
+    <div>
+    <div class="Gender">Gender</div>
+    <div class="all8">
+    <input  type="radio" name="gender" value="male" required>Male
+    <input  type="radio" name="gender" value="female" required>Female
+    <input  type="radio" name="gender" value="other" required>Other
+  </div >
+<h2></h2>
+    
+  <a href="thabo.html" target="_self"><button class="button" type="submit">Registration</button></a>
+  </form>
+  </body>
+</html>
